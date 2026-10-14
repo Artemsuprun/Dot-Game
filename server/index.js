@@ -4,7 +4,7 @@ const { createServer } = require('node:http');
 const { join } = require('node:path');
 const { Server } = require('socket.io');
 
-const port = 3000;
+const port = 80;
 const host = '';
 
 const app = express();
@@ -66,7 +66,7 @@ function heartbeat() {
 
 // listen
 server.listen(port, () => {
-  console.log('server running at http://localhost:3000');
+  console.log('server running at http://localhost:' + port);
 });
 
 

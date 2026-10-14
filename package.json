@@ -1,0 +1,25 @@
+{
+  "name": "dot-game",
+  "version": "1.0.0",
+  "description": "A simple dot game.",
+  "homepage": "https://github.com/Artemsuprun/Dot-Game#readme",
+  "bugs": {
+    "url": "https://github.com/Artemsuprun/Dot-Game/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Artemsuprun/Dot-Game.git"
+  },
+  "license": "MIT",
+  "author": "Artem Suprun",
+  "type": "commonjs",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server/index.js"
+  },
+  "dependencies": {
+    "express": "^5.3.0",
+    "socket.io": "^4.8.4"
+  }
+}
