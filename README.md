@@ -8,6 +8,8 @@ Dot-Game is a personal software development project focused on learning and impl
 
 The project seperates the client and server into their own directories to keep the frontend and backend code organized.
 
+![Image of Dot-Game gameplay](img/dg1.PNG)
+
 ## Technologies
 
 - JavaScript - Application logic
