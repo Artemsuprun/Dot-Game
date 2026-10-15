@@ -42,9 +42,12 @@ npm install
 
 ### Running the Program
 
-Start the server:
+Start the server by typing this in the terminal:
 
-`node server`
+```
+cd path/to/folder/Dot-Game/
+node server
+```
 
 Then open the client interface by typing this into the web browser:
 
